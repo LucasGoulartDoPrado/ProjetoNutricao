@@ -1,0 +1,189 @@
+object frmPaciente: TfrmPaciente
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  Caption = 'Cadastro Paciente'
+  ClientHeight = 627
+  ClientWidth = 889
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Nome: TLabel
+    Left = 24
+    Top = 77
+    Width = 27
+    Height = 13
+    Caption = 'Nome'
+  end
+  object lblIdade: TLabel
+    Left = 24
+    Top = 131
+    Width = 26
+    Height = 13
+    Caption = 'Idate'
+  end
+  object lblProfissao: TLabel
+    Left = 24
+    Top = 184
+    Width = 44
+    Height = 13
+    Caption = 'Profiss'#227'o'
+  end
+  object lblCelular: TLabel
+    Left = 272
+    Top = 131
+    Width = 33
+    Height = 13
+    Caption = 'Celular'
+  end
+  object lblTelefone: TLabel
+    Left = 136
+    Top = 131
+    Width = 42
+    Height = 13
+    Caption = 'Telefone'
+  end
+  object lblNatural: TLabel
+    Left = 24
+    Top = 240
+    Width = 35
+    Height = 13
+    Caption = 'Natural'
+  end
+  object lblEstadoCivil: TLabel
+    Left = 24
+    Top = 289
+    Width = 55
+    Height = 13
+    Caption = 'Estado Civil'
+  end
+  object lblEscolaridade: TLabel
+    Left = 24
+    Top = 345
+    Width = 60
+    Height = 13
+    Caption = 'Escolaridade'
+  end
+  object lblMotivoConsulta: TLabel
+    Left = 24
+    Top = 401
+    Width = 92
+    Height = 13
+    Caption = 'Motivo da Consulta'
+  end
+  object pnCadastroPaciente: TPanel
+    Left = 0
+    Top = 0
+    Width = 889
+    Height = 65
+    Align = alTop
+    Caption = 'Cadastro Paciente'
+    TabOrder = 0
+    object lblDataCadastro: TLabel
+      Left = 792
+      Top = 15
+      Width = 85
+      Height = 13
+      Caption = 'Data de Cadastro'
+    end
+    object edtDataCadastro: TDBEdit
+      Left = 756
+      Top = 34
+      Width = 121
+      Height = 21
+      TabOrder = 0
+    end
+  end
+  object edtNome: TDBEdit
+    Left = 24
+    Top = 96
+    Width = 361
+    Height = 21
+    TabOrder = 1
+    OnChange = edtNomeChange
+  end
+  object edtIdade: TDBEdit
+    Left = 24
+    Top = 150
+    Width = 95
+    Height = 21
+    TabOrder = 2
+    OnChange = edtNomeChange
+  end
+  object edtProfissao: TDBEdit
+    Left = 24
+    Top = 203
+    Width = 199
+    Height = 21
+    TabOrder = 3
+    OnChange = edtNomeChange
+  end
+  object edtTelefone: TDBEdit
+    Left = 136
+    Top = 150
+    Width = 113
+    Height = 21
+    TabOrder = 4
+    OnChange = edtNomeChange
+  end
+  object edtCelular: TDBEdit
+    Left = 272
+    Top = 150
+    Width = 113
+    Height = 21
+    TabOrder = 5
+    OnChange = edtNomeChange
+  end
+  object rdoSexo: TRadioGroup
+    Left = 248
+    Top = 203
+    Width = 137
+    Height = 126
+    Caption = 'Sexo'
+    ItemIndex = 0
+    Items.Strings = (
+      'Masculino'
+      'Feminino'
+      'Outro'
+      'Prefiro N'#227'o Informar')
+    TabOrder = 6
+  end
+  object edtNatural: TDBEdit
+    Left = 24
+    Top = 259
+    Width = 199
+    Height = 21
+    TabOrder = 7
+    OnChange = edtNomeChange
+  end
+  object edtEstadoCivil: TDBEdit
+    Left = 24
+    Top = 308
+    Width = 199
+    Height = 21
+    TabOrder = 8
+    OnChange = edtNomeChange
+  end
+  object edtEscolaridade: TDBEdit
+    Left = 24
+    Top = 364
+    Width = 199
+    Height = 21
+    TabOrder = 9
+    OnChange = edtNomeChange
+  end
+  object edtMotivoConsulta: TDBEdit
+    Left = 24
+    Top = 420
+    Width = 199
+    Height = 21
+    TabOrder = 10
+    OnChange = edtNomeChange
+  end
+end

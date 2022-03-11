@@ -1,0 +1,16 @@
+object DataModule2: TDataModule2
+  OldCreateOrder = False
+  Height = 150
+  Width = 215
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'ConnectionDef=DB2')
+    Left = 48
+    Top = 32
+  end
+  object FDPhysCDataDB2DriverLink1: TFDPhysCDataDB2DriverLink
+    DriverID = 'CDataDB2'
+    Left = 136
+    Top = 48
+  end
+end

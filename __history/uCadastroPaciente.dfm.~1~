@@ -1,0 +1,55 @@
+object frmPaciente: TfrmPaciente
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  Caption = 'Cadastro Paciente'
+  ClientHeight = 627
+  ClientWidth = 889
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Nome: TLabel
+    Left = 32
+    Top = 157
+    Width = 27
+    Height = 13
+    Caption = 'Nome'
+  end
+  object Label1: TLabel
+    Left = 760
+    Top = 157
+    Width = 85
+    Height = 13
+    Caption = 'Data de Cadastro'
+  end
+  object edtNome: TDBEdit
+    Left = 32
+    Top = 176
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    OnChange = edtNomeChange
+  end
+  object edtDataCadastro: TDBEdit
+    Left = 760
+    Top = 176
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object pnCadastroPaciente: TPanel
+    Left = 0
+    Top = 0
+    Width = 889
+    Height = 65
+    Align = alTop
+    Caption = 'Cadastro Paciente'
+    TabOrder = 2
+  end
+end
